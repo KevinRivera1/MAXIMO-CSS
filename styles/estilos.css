@@ -1,0 +1,656 @@
+body {
+    background: radial-gradient(#a18cd1, #fbc2eb);
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 100%;
+}
+
+h1 {
+    text-align : center;
+    font-size  : 50px;
+    color      : #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #000;
+    margin-top : 1rem;
+}
+
+.cabeza {
+    position        : absolute;
+    width           : 50px;
+    height          : 85px;
+    background-color: #108c77;
+    border-radius   : 60%;
+    margin-left     : 500px;
+    margin-top      : 200px;
+    z-index         : 10;
+}
+
+.ojoDerecho {
+    position        : relative;
+    width           : 30%;
+    height          : 50%;
+    background-color: #fff;
+    border-radius   : 50%;
+    left            : 8px;
+    top             : 12px;
+    border          : 1px solid;
+    z-index         : 10;
+}
+
+.pupila {
+    position        : absolute;
+    width           : 52%;
+    height          : 50%;
+    background-color: #000;
+    border-radius   : 50%;
+    top             : 50%;
+    left            : 14%;
+    z-index         : 10;
+}
+
+.luzPupila {
+    position     : relative;
+    width        : 4px;
+    height       : 8px;
+    background   : #fff;
+    border-radius: 50%;
+    top          : 55%;
+    left         : 20%;
+    z-index      : 10;
+}
+
+.mejilla {
+    position        : absolute;
+    width           : 110%;
+    height          : 17%;
+    background-color: #108c77;
+    border-radius   : 50%;
+    top             : 95%;
+    left            : 1%;
+    border-top      : 0.2px solid #000;
+    z-index         : 10;
+}
+
+.picoSuperior {
+    position     : relative;
+    width        : 170px;
+    height       : 60px;
+    border-radius: 40%;
+    border-left  : 2px solid #000;
+    border-bottom: 2px solid #000;
+    bottom       : 40px;
+    left         : 30px;
+    background   : linear-gradient(to right, #FAA644, #F16F43, #E55046, #AB3835, #852319);
+    transform    : rotate(-6deg);
+    z-index      : 10;
+}
+
+.picoInferior {
+    position     : absolute;
+    width        : 130px;
+    height       : 40px;
+    background   : transparent;
+    border-radius: 75%;
+    top          : 50px;
+    transform    : rotate(10deg);
+    right        : 57px;
+    border-bottom: 3px solid #000;
+    z-index      : 9;
+}
+
+.picoInferior2 {
+    position        : relative;
+    width           : 74px;
+    height          : 3px;
+    top             : 72.6px;
+    left            : 39px;
+    background-color: #000;
+    transform       : rotate(23deg);
+    border-radius   : 56px;
+
+}
+
+.picoInefrior3 {
+    position     : absolute;
+    width        : 107px;
+    height       : 20px;
+    top          : 70px;
+    right        : 74px;
+    background   : linear-gradient(to right, #FAA644, #F16F43, #E55046, #AB3835, #852319);
+    transform    : rotate(12deg);
+    border-radius: 50%;
+
+}
+
+.picoInferior4 {
+    position     : absolute;
+    width        : 125px;
+    height       : 40px;
+    background   : transparent;
+    border-radius: 75%;
+    top          : 45.9px;
+    transform    : rotate(15deg);
+    right        : 57px;
+    border-bottom: 3px solid #000;
+
+}
+
+.picoInferior5 {
+    position     : relative;
+    height       : 17px;
+    width        : 20px;
+    top          : 50px;
+    right        : 19px;
+    border-radius: 50%;
+    border-left  : 2px solid #000;
+    transform    : rotate(49deg);
+}
+
+.picoInferior6 {
+    position     : relative;
+    width        : 75px;
+    height       : 18px;
+    background   : transparent;
+    border-radius: 35%;
+    top          : 48px;
+    transform    : rotate(20deg);
+    left         : 20px;
+    border-right : 3px solid #000;
+}
+
+.picoColor2 {
+    position     : absolute;
+    width        : 90px;
+    height       : 20px;
+    top          : 71.4px;
+    left         : 85%;
+    background   : linear-gradient(to right, #FAA644, #F16F43, #E55046, #AB3835, #852319);
+    transform    : rotate(12deg);
+    border-radius: 50%;
+    z-index      : 9;
+
+}
+
+.picoColor3 {
+    position     : relative;
+    width        : 33px;
+    height       : 20px;
+    bottom       : 40px;
+    left         : 70%;
+    background   : #FAA644;
+    transform    : rotate(130deg);
+    border-radius: 50%;
+
+}
+
+.picoColor4 {
+    position     : absolute;
+    width        : 20px;
+    height       : 40px;
+    top          : 55px;
+    left         : 85%;
+    background   : #FAA644;
+    transform    : rotate(17deg);
+    border-radius: 50%;
+    z-index      : 7;
+}
+
+.picoColor5 {
+    position     : absolute;
+    width        : 24.6px;
+    height       : 9.9px;
+    top          : 73.3PX;
+    left         : 14.9PX;
+    background   : #FAA644;
+    transform    : rotate(51deg);
+    border-radius: 50%;
+    z-index      : 9;
+}
+
+.picoColor6 {
+    position     : absolute;
+    width        : 20px;
+    height       : 8px;
+    top          : 87PX;
+    left         : 125.5px;
+    background   : #852319;
+    transform    : rotate(177deg);
+    border-radius: 50%;
+    z-index      : 8;
+}
+
+.picoColor7 {
+    position     : absolute;
+    width        : 8px;
+    height       : 8px;
+    top          : 83.9PX;
+    left         : 128px;
+    background   : #852319;
+    transform    : rotate(177deg);
+    border-radius: 50%;
+    z-index      : 8;
+}
+
+.lengua {
+    position     : relative;
+    width        : 44.3px;
+    height       : 10px;
+    left         : 36.8px;
+    border-radius: 50%;
+    border-top   : 9.8px solid #ED9A92;
+    background   : transparent;
+    transform    : rotate(17deg);
+    bottom       : 49.2px;
+    z-index      : 10;
+}
+
+.lengua2 {
+    position     : absolute;
+    width        : 42.4px;
+    height       : 5px;
+    left         : 1.6px;
+    border-radius: 50%;
+    border-bottom: 6.9px solid #ED9A92;
+    background   : transparent;
+    bottom       : 7px;
+    z-index      : 8;
+}
+
+.cuello {
+    position               : absolute;
+    width                  : 30px;
+    height                 : 100px;
+    background             : #108c77;
+    border-top-left-radius : 50%;
+    border-top-right-radius: 50%;
+    left                   : 45%;
+    top                    : 50px;
+    transform              : rotate(-34deg);
+    border-left            : 2px solid #000;
+    z-index                : 7;
+}
+
+.cuelloCamisa1 {
+    position     : relative;
+    height       : 38px;
+    width        : 30px;
+    right        : 6.2px;
+    background   : rgb(129, 86, 55);
+    clip-path    : polygon(0 0, 19% 100%, 100% 78%);
+    top          : 70px;
+    border-radius: 35%;
+    z-index      : 10;
+}
+
+.cuelloCamisa2 {
+    position     : absolute;
+    height       : 38px;
+    width        : 30px;
+    right        : 5px;
+    top          : 67px;
+    left         : 22px;
+    background   : rgb(129, 86, 55);
+    clip-path    : polygon(0 0, 19% 100%, 100% 78%);
+    transform    : scaleX(-1);
+    transform    : rotate(24deg);
+    border-radius: 35%;
+    z-index      : 10;
+}
+
+.cuerpo {
+    position        : relative;
+    width           : 128px;
+    height          : 160px;
+    left            : 490px;
+    top             : 324px;
+    background-color: #FFFBBE;
+    border-radius   : 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform       : rotate(10deg);
+    border          : 2px solid #000;
+    z-index         : 8;
+}
+
+.bolsillo1 {
+    position     : absolute;
+    width        : 40px;
+    height       : 55px;
+    top          : 59px;
+    left         : 29px;
+    background   : transparent;
+    border-radius: 70%;
+    border-bottom: 30px solid #B7B68C;
+    transform    : rotate(2deg);
+}
+
+.bolsillo2 {
+    position     : relative;
+    width        : 40px;
+    height       : 55px;
+    top          : 47px;
+    left         : 90px;
+    background   : transparent;
+    border-radius: 70%;
+    border-bottom: 30px solid #B7B68C;
+    transform    : rotate(-17deg);
+    transform    : rotateZ(-12deg);
+}
+
+.cola {
+    position     : relative;
+    width        : 108px;
+    height       : 150px;
+    left         : 490px;
+    top          : 190px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    background   : #108c77;
+    transform    : rotate(5deg);
+    border       : 2px solid #000;
+    z-index      : 7;
+}
+
+.pieDerecho {
+    position     : relative;
+    width        : 20px;
+    height       : 60px;
+    left         : 490px;
+    top          : 164px;
+    background   : #FAA644;
+    border-radius: 35%;
+    transform    : rotate(40deg);
+    border-right : 2px solid black;
+    border-left  : 2px solid black;
+    z-index      : 10;
+}
+
+.pieDerecho2 {
+    position     : relative;
+    width        : 20px;
+    height       : 60px;
+    left         : 20px;
+    top          : 26px;
+    background   : #FAA644;
+    border-radius: 35%;
+    transform    : rotate(-80deg);
+    border-left  : 2px solid black;
+    z-index      : 10;
+
+}
+
+.pieplanta {
+    position     : relative;
+    width        : 25px;
+    height       : 99px;
+    left         : 15.5px;
+    bottom       : 18px;
+    background   : #FAA644;
+    border-radius: 50%;
+    transform    : rotate(40deg);
+    border-bottom: 2px solid black;
+    border-right : 2px solid black;
+    border-left  : 0.2px solid black;
+    z-index      : 8;
+}
+
+.dedoDerecho {
+    position     : relative;
+    width        : 25px;
+    height       : 80px;
+    left         : 5px;
+    top          : 18px;
+    background   : transparent;
+    border-radius: 50%;
+    border-left  : 1.5px solid black;
+
+}
+
+.pieIzquierdo {
+    position     : relative;
+    width        : 20px;
+    height       : 50px;
+    left         : 590px;
+    top          : 100px;
+    background   : #FAA644;
+    border-radius: 35%;
+    transform    : rotate(-49deg);
+    border-right : 3px solid black;
+    border-left  : 2px solid black;
+    z-index      : 6;
+}
+
+.pieIzquierdo2 {
+
+    position     : absolute;
+    width        : 20px;
+    height       : 60px;
+    right        : 22px;
+    top          : 18px;
+    background   : #FAA644;
+    border-radius: 35%;
+    transform    : rotate(70deg);
+    border       : 2px solid black;
+    border-top   : 3px solid transparent;
+    border-bottom: 10px transparent;
+    z-index      : 5;
+}
+
+.piePlantaIzquierdo {
+
+    position     : relative;
+    width        : 25px;
+    height       : 99px;
+    right        : 33px;
+    top          : 40px;
+    background   : #FAA644;
+    border-radius: 50%;
+    transform    : rotate(-36deg);
+    border-bottom: 2px solid black;
+    border-right : 2px solid black;
+    border-left  : 0.2px solid black;
+}
+
+.dedoIzquierdo {
+    position     : relative;
+    width        : 25px;
+    height       : 80px;
+    right        : 6px;
+    top          : 18px;
+    background   : transparent;
+    border-radius: 50%;
+    border-right : 1.5px solid black;
+}
+
+.alaIquierda {
+    position     : relative;
+    width        : 77px;
+    height       : 150px;
+    left         : 600px;
+    bottom       : 128px;
+    transform    : rotate(60deg);
+    border-radius: 50%;
+    background   : teal;
+    border       : 2px solid #000;
+}
+
+.dedoUno {
+    position     : relative;
+    width        : 70px;
+    height       : 20px;
+    transform    : rotate(20deg);
+    top          : 20px;
+    left         : 9.9px;
+    background   : teal;
+    border-radius: 100%;
+    border-top   : 2px solid #000;
+    z-index      : 10;
+}
+
+.dedoDos {
+    position     : relative;
+    width        : 70px;
+    height       : 20px;
+    transform    : rotate(-11deg);
+    top          : 15px;
+    left         : 9px;
+    background   : transparent;
+    border-radius: 100%;
+    border-top   : 2px solid #000;
+    z-index      : 10;
+}
+
+.dedoTres {
+    position     : relative;
+    width        : 70px;
+    height       : 20px;
+    bottom       : 39px;
+    left         : 12px;
+    background   : teal;
+    border       : 2px solid #000;
+    border-radius: 50%;
+    transform    : rotate(11deg);
+    z-index      : 8;
+}
+
+.dedoCuatro {
+    position     : relative;
+    width        : 79px;
+    height       : 25px;
+    bottom       : 75px;
+    left         : 20px;
+    background   : teal;
+    border       : 2px solid #000;
+    border-radius: 50%;
+    transform    : rotate(11deg);
+    z-index      : 7;
+}
+
+.dedoPulgar {
+    position     : relative;
+    height       : 50px;
+    width        : 26px;
+    right        : -20px;
+    bottom       : 50px;
+    background   : teal;
+    border-radius: 45%;
+    transform    : rotate(30deg);
+    z-index      : 10;
+    border-left  : 2px solid #000;
+    border-right : 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.dedoDrechoUno {
+    position     : relative;
+    height       : 90px;
+    width        : 26px;
+    left         : -70px;
+    top          : 26px;
+    background   : teal;
+    border-radius: 50%;
+    transform    : rotate(-53deg);
+    border       : 2px solid #000;
+    z-index      : 10;
+
+}
+
+.dedoDrechoDos {
+    position     : relative;
+    height       : 90px;
+    width        : 26px;
+    right        : 80px;
+    bottom       : 54PX;
+    background   : teal;
+    border-radius: 50%;
+    transform    : rotate(-50deg);
+    border       : 2px solid #000;
+    z-index      : 9;
+}
+
+.dedoDerechoTres {
+    position     : relative;
+    height       : 90px;
+    width        : 26px;
+    right        : 89px;
+    bottom       : 135PX;
+    background   : teal;
+    border-radius: 50%;
+    transform    : rotate(-50deg);
+    border       : 2px solid #000;
+    z-index      : 8;
+}
+
+.alaDerecha {
+    position     : absolute;
+    height       : 90px;
+    width        : 60px;
+    left         : -69px;
+    bottom       : -100px;
+    transform    : rotate(49deg);
+    background   : teal;
+    border-radius: 35%;
+    border       : 2px solid #000;
+
+}
+
+.gorra {
+    position     : relative;
+    height       : 70px;
+    width        : 69px;
+    left         : 370px;
+    bottom       : 215px;
+    background   : transparent;
+    border-radius: 45%;
+    border-top   : 50px solid #FFFAB9;
+    transform    : rotate(-49deg);
+    z-index      : 10;
+
+}
+
+.visera {
+    position     : absolute;
+    height       : 70px;
+    width        : 90px;
+    right        : -15px;
+    top          : -10px;
+    background   : #FFFAB9;
+    border-radius: 45%;
+    transform    : rotate(-2.5deg);
+    border       : 4px solid #000;
+    overflow     : hidden;
+    z-index      : 9;
+}
+
+.tiraColor1 {
+    position     : relative;
+    height       : 16px;
+    width        : 99px;
+    right        : 69px;
+    top          : 20px;
+    background   : #FDB649;
+    border-radius: 50%;
+    border       : 2px solid #000;
+}
+
+.tiraColor2 {
+    position     : relative;
+    height       : 16px;
+    width        : 99px;
+    right        : 50px;
+    top          : 16px;
+    background   : #FA6E49;
+    border-radius: 50%;
+    border       : 2px solid #000;
+}
+
+.tiraColor3 {
+    position     : relative;
+    height       : 16px;
+    width        : 99px;
+    right        : 50px;
+    bottom       : 36px;
+    background   : #F59F84;
+    border-radius: 50%;
+    border       : 2px solid #000;
+}
